@@ -4,7 +4,8 @@ import azure.functions as func
 import requests
 import json
 def algorithm():
-    
+    HTTP_PROXY="http://proxy.apac.etn.com:8080"
+    HTTPS_PROXY="http://proxy.apac.etn.com:8080"
     authorisation_token="V0VIVk1Lbm9Pc2tTZUg2RXdmb0NGRGtuVEZ4SlNYck86QXp1dXdmSkxwc2JKSG9LUw=="
     algorithm_id="derms__analytics__pv_inference"
     bas_url="https://api-qa.eaton.com/" 
